@@ -13,7 +13,7 @@ format:
 
 # Test application
 test:
-    nvim --headless -c "Lazy load plenary.nvim | PlenaryBustedDirectory tests/ {minimal_init = 'tests/jiejie_spec.lua'}"
+    nvim --headless -c "Lazy load plenary.nvim | PlenaryBustedDirectory tests/"
 
 # Development test application
 dev-test tests='': test
